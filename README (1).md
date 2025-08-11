@@ -28,8 +28,6 @@ O modelo identifica padrões que ajudam a antecipar quais clientes têm maior pr
    - Algoritmos testados:  
      - **KNN**  
      - **Random Forest**  
-     - **SVM**  
-     - **Naive Bayes**  
      - **Regressão Logística**  
    - Ajuste de hiperparâmetros com **GridSearchCV**.  
    - Métricas: **Acurácia**, **Matriz de Confusão**, **ROC AUC**, **Relatório de Classificação**.
@@ -69,35 +67,6 @@ O modelo identifica padrões que ajudam a antecipar quais clientes têm maior pr
 
 ---
 
-## ▶ Como Usar
-
-1. **Clonar o repositório**
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-   ```
-
-2. **Instalar dependências**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Executar o notebook**
-   - Abra o arquivo `.ipynb` no **Jupyter Notebook** ou **Google Colab**.  
-   - Execute as células na ordem para reproduzir a análise.
-
----
-
-## 📂 Estrutura do Repositório
-```
-├── TELECOM_X2.ipynb         # Notebook com análise e modelagem
-├── df_plano.csv             # Base de dados utilizada
-├── requirements.txt         # Dependências
-└── README.md                # Documentação
-```
-
-
-
 ## ✅ Conclusão
 Este trabalho demonstra que é possível **prever churn com boa precisão** combinando EDA sólida, pré-processamento robusto (balanceamento, codificação e normalização) e modelos supervisionados.  
 O **pipeline está pronto para reuso** e ajustes com novos dados, servindo como base para monitoramento contínuo e decisões orientadas por dados.
@@ -111,7 +80,7 @@ O **pipeline está pronto para reuso** e ajustes com novos dados, servindo como 
 
 ---
 
-✍ **Autor:** [Seu Nome]  
+✍ **Autor:** [rafa10]  
 📅 **Última atualização:** Agosto/2025  
 
 ---
