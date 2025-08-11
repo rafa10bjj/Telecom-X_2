@@ -32,6 +32,15 @@ O modelo identifica padrões que ajudam a antecipar quais clientes têm maior pr
    - Ajuste de hiperparâmetros com **GridSearchCV**.  
    - Métricas: **Acurácia**, **Matriz de Confusão**, **ROC AUC**, **Relatório de Classificação**.
 
+============================================================
+            🎯 MELHOR MODELO PARA ESTA ANÁLISE 🎯             
+============================================================
+
+📌 Modelo escolhido: RandomForestClassifier
+🔹 Melhores parâmetros: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 200}
+📊 Melhor ROC AUC: 84%
+
+✅ Este modelo apresentou a melhor performance entre os testados e será utilizado para as próximas etapas da análise.
 ---
 
 ## 📈 Principais Insights
